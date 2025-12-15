@@ -42,8 +42,7 @@ import {
   Star,
   Microscope,
   HeartHandshake,
-  Cpu,
-  Handshake
+  Cpu
 } from 'lucide-react';
 import { minscoData } from './data';
 import { CelebQuantData, CelebContentData, StrategyDetail } from './types';
@@ -780,7 +779,7 @@ const StrategyDashboard = ({ data }: { data: CelebContentData }) => {
              {/* 1. Header & Philosophy */}
              <div className="text-center mb-16">
                <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-indigo-500/10 text-indigo-300 rounded-full text-xs font-bold uppercase tracking-widest mb-6 border border-indigo-500/20 backdrop-blur-sm">
-                  <Handshake size={14} /> Final Partnership Proposal
+                  <HeartHandshake size={14} /> Final Partnership Proposal
                </span>
                <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-white leading-tight">
                  {data.proposal.philosophy}
